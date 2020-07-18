@@ -1,0 +1,95 @@
+.a{
+    display: inline-block;
+    padding-right: 120px;
+    padding-left: 100px;
+    border: 1px solid;
+}
+.b{
+    display: inline-block;
+    padding-right: 120px;
+    padding-left: 100px;
+    border: 1px solid;
+}
+.c{
+    display: inline-block;
+    padding-right: 120px;
+    padding-left: 30px;
+    border: 1px solid;
+}
+.d{
+    display: inline-block;
+    padding-right: 30px;
+    border: 1px solid;
+}
+
+.vertical-menu {
+    width: 200px; 
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .vertical-menu a.active {
+    background-color: yellow; /
+    
+  }
+
+  .vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+  }
+  marquee {
+    padding: 1rem;
+    
+}
+main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.det, .picture {
+    display: flex;
+    flex-direction: column;
+}
+.det {
+    min-width: 70%;
+}
+
+.picture {
+    min-width: 30%;
+}
+
+footer {
+    display: flex;
+    width: 95%;
+}
+
+footer>* {
+    width: 95%;
+    padding: 0.9rem
+}summary {
+    outline: none;
+    font-weight: bold;
+    user-select: none;
+    margin-bottom: 2rem;
+}
+.det, .picture {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    margin-bottom: 2rem;
+    min-width: 100%;
+}
